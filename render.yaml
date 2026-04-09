@@ -6,7 +6,6 @@ services:
     plan: starter
     buildCommand: npm install --legacy-peer-deps && npm run build
     startCommand: node .next/standalone/server.js
-    buildCommand: npm run build
     cacheDirectories:
       - .next/cache
     healthCheckPath: /en
